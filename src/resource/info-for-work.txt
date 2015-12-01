@@ -1,0 +1,12 @@
+http://gardata01:7001/Jef-Web/showMonitor
+ 
+http://gardataqa01:7001/Jef-Web/showMonitor
+ 
+UI should be self-explanatory, but if not send me questions…
+#
+Gallup Organization    14185-7NU84-N743B-KWHDD-RH3KB-VS4R7
+#
+Your database account has been setup on REPORT/D/Q/C.  Let me know if you have any issues logging in.
+ 
+User_name  chris_ge
+Password     Gallup_26
