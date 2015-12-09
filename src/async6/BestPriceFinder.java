@@ -108,6 +108,9 @@ public class BestPriceFinder {
         return priceFutures.stream()
                            .map(CompletableFuture::join)
                            .collect(toList());
+
+        //then combine :combine the results of the operations performed by two completely independent CompletableFutures,
+        // and you don’t want to wait for the first to complete before starting on the second.
     }
 
     public Stream<CompletableFuture<String>> findPricesStream (String product) {

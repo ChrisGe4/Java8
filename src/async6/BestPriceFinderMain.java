@@ -13,9 +13,10 @@ public class BestPriceFinderMain {
     public static void main (String[] args) {
 
         BestPriceFinder finder = new BestPriceFinder();
-        execute("parellel", () -> finder.findPriceParallel("myphone27s"));
-        runFindPricesParell(finder);
-        // System.out.println(finder.findPricesAsync("myPhone"));
+        //execute("parellel", () -> finder.findPriceParallel("myphone27s"));
+       // runFindPricesParell(finder);
+         System.out.println(finder.findPricesAsync("myPhone"));
+        System.out.println("the end");
     }
 
     public static void runFindPricesParell (BestPriceFinder finder) {
