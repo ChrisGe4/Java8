@@ -17,7 +17,6 @@ public class TrainJourney {
     }
 
     static TrainJourney link (TrainJourney a, TrainJourney b) {
-
         if ( a == null ) return b;
 
         TrainJourney t = a;
